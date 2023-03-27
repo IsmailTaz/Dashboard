@@ -97,7 +97,7 @@ const SideBar = () => {
                     </MenuItem>
                 
                 
-                <MenuItem component={<Link to="/Person" />}>
+                <MenuItem component={<Link to="/lead" />}>
                         <Box display="inline-flex">  
                         <PersonOutlinedIcon />
                         <Typography marginLeft="40px">
