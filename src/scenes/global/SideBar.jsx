@@ -72,21 +72,21 @@ const SideBar = () => {
                         </Box>
                         </MenuItem>
                     
-                <MenuItem component={<Link to="/Calendar" />}>
+                {/* <MenuItem component={<Link to="/Calendar" />}>
                     <Box display="inline-flex"> 
                     <CalendarTodayOutlinedIcon />
                     <Typography marginLeft="40px">
                         Calendar
                     </Typography>
                     </Box>
-                    </MenuItem>
-                <MenuItem component={<Link to="/Map" />}><Box display="inline-flex">  
+                    </MenuItem> */}
+                {/* <MenuItem component={<Link to="/Map" />}><Box display="inline-flex">  
                     <MapOutlinedIcon /> 
                     <Typography marginLeft="40px">
                         Map
                     </Typography>
                     </Box>
-                    </MenuItem>
+                    </MenuItem> */}
                 <MenuItem component={<Link to="/quotes-analysis" />}>
                     <Box display="inline-flex"> 
                         <TimelineOutlinedIcon />

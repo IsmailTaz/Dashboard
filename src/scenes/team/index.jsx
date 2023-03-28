@@ -2,7 +2,7 @@ import { Box,Typography,useTheme} from "@mui/material";
 import Header from "../../components/Header";
 import { tokens } from "../../theme";
 import {mockDataTeam} from "../../data/mockData.js"
-import { DataGrid  } from '@mui/x-data-grid';
+import { DataGrid,GridToolbar } from '@mui/x-data-grid';
 
 const Team = () => {
     const theme = useTheme();
@@ -33,6 +33,7 @@ const Team = () => {
             <DataGrid
             rows={mockDataTeam}
             columns={columns}
+            components={{Toolbar:GridToolbar}}
 
             />
         </Box>
