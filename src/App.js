@@ -9,6 +9,8 @@ import Team from './scenes/team/index.jsx';
 import Clients from './scenes/contacts/index.jsx';
 import Quotes from './scenes/quotes/index.jsx';
 import Form from './scenes/form/index.jsx';
+import Pie from './scenes/piechart/index.jsx';
+import Line from './scenes/linechart/index.jsx';
 function App() {
   const [theme,colorMode] = useMode();
   return (
@@ -27,6 +29,8 @@ function App() {
               <Route path="/contacts" element ={<Clients />} />
               <Route path="/quotes" element ={<Quotes />} />
               <Route path="/lead" element={<Form />}/>
+              <Route path="/pie" element={<Pie />}/>
+              <Route path="/quotes-analysis" element={<Line />}/>
             </Routes>
             
           </main>

@@ -44,6 +44,7 @@ const Form = () => {
             <Box
               display="grid"
               marginLeft="20px"
+              marginRight="25px"
               gap="15px"
               gridTemplateColumns="repeat(4, minmax(0, 1fr))"
               
@@ -126,7 +127,7 @@ const Form = () => {
                 sx={{ gridColumn: "span 4" }}
               />
             </Box>
-            <Box display="flex" justifyContent="end" mt="20px">
+            <Box display="flex" justifyContent="end" mt="20px" marginRight="20px">
               <Button type="submit" color="secondary" variant="contained">
                 Create New User
               </Button>

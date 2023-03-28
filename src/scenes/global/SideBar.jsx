@@ -87,11 +87,11 @@ const SideBar = () => {
                     </Typography>
                     </Box>
                     </MenuItem>
-                <MenuItem component={<Link to="/Time" />}>
+                <MenuItem component={<Link to="/quotes-analysis" />}>
                     <Box display="inline-flex"> 
                         <TimelineOutlinedIcon />
                         <Typography marginLeft="40px">
-                        Time
+                        Quotes Analytics
                     </Typography>
                         </Box>
                     </MenuItem>
@@ -106,15 +106,15 @@ const SideBar = () => {
 
                         </Box>
                         </MenuItem>
-                <MenuItem component={<Link to="/Barchart" />}>
+                {/* <MenuItem component={<Link to="/Barchart" />}>
                     <Box display="inline-flex"> 
                          <BarChartOutlinedIcon />
                          <Typography marginLeft="40px">
                         Chart
                     </Typography>
                     </Box>
-                </MenuItem>
-                <MenuItem component={<Link to="/piechart" />}>
+                </MenuItem> */}
+                <MenuItem component={<Link to="/pie" />}>
                     <Box display="inline-flex">  
                         <PieChartOutlineOutlinedIcon />
                         <Typography marginLeft="40px">

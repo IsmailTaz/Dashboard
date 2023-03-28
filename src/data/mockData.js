@@ -399,196 +399,196 @@ export const mockBarData = [
 
 export const mockPieData = [
   {
-    id: "hack",
-    label: "hack",
-    value: 239,
+    id: "Deal Awarded",
+    label: "Deal Awarded",
+    value: 25,
     color: "hsl(104, 70%, 50%)",
   },
   {
-    id: "make",
-    label: "make",
-    value: 170,
+    id: "New Lead",
+    label: "New Lead",
+    value: 67,
     color: "hsl(162, 70%, 50%)",
   },
   {
-    id: "go",
-    label: "go",
-    value: 322,
+    id: "Reprice Quote",
+    label: "Reprice Quote",
+    value: 25,
     color: "hsl(291, 70%, 50%)",
   },
   {
-    id: "lisp",
-    label: "lisp",
-    value: 503,
+    id: "Follow uo with Lead",
+    label: "Follow uo with LEad",
+    value: 65,
     color: "hsl(229, 70%, 50%)",
   },
   {
-    id: "scala",
-    label: "scala",
-    value: 584,
+    id: "Proposal Submitted",
+    label: "Proposal Submitted",
+    value: 99,
     color: "hsl(344, 70%, 50%)",
   },
 ];
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "Order Views",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "plane",
+        x: "January",
         y: 101,
       },
       {
-        x: "helicopter",
+        x: "February",
         y: 75,
       },
       {
-        x: "boat",
+        x: "March",
         y: 36,
       },
       {
-        x: "train",
+        x: "April",
         y: 216,
       },
       {
-        x: "subway",
+        x: "May",
         y: 35,
       },
       {
-        x: "bus",
+        x: "June",
         y: 236,
       },
       {
-        x: "car",
+        x: "July",
         y: 88,
       },
       {
-        x: "moto",
+        x: "August",
         y: 232,
       },
       {
-        x: "bicycle",
+        x: "September",
         y: 281,
       },
       {
-        x: "horse",
+        x: "October",
         y: 1,
       },
       {
-        x: "skateboard",
+        x: "November",
         y: 35,
       },
       {
-        x: "others",
+        x: "December",
         y: 14,
       },
     ],
   },
   {
-    id: "france",
+    id: "Average Time Spent on Order",
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "plane",
+        x: "January",
         y: 212,
       },
       {
-        x: "helicopter",
+        x: "February",
         y: 190,
       },
       {
-        x: "boat",
+        x: "March",
         y: 270,
       },
       {
-        x: "train",
+        x: "April",
         y: 9,
       },
       {
-        x: "subway",
+        x: "May",
         y: 75,
       },
       {
-        x: "bus",
+        x: "June",
         y: 175,
       },
       {
-        x: "car",
+        x: "July",
         y: 33,
       },
       {
-        x: "moto",
+        x: "August",
         y: 189,
       },
       {
-        x: "bicycle",
+        x: "September",
         y: 97,
       },
       {
-        x: "horse",
+        x: "October",
         y: 87,
       },
       {
-        x: "skateboard",
+        x: "November",
         y: 299,
       },
       {
-        x: "others",
+        x: "December",
         y: 251,
       },
     ],
   },
   {
-    id: "us",
+    id: "Average Time Viewing an Order",
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "plane",
+        x: "January",
         y: 191,
       },
       {
-        x: "helicopter",
+        x: "February",
         y: 136,
       },
       {
-        x: "boat",
+        x: "March",
         y: 91,
       },
       {
-        x: "train",
+        x: "April",
         y: 190,
       },
       {
-        x: "subway",
+        x: "May",
         y: 211,
       },
       {
-        x: "bus",
+        x: "June",
         y: 152,
       },
       {
-        x: "car",
+        x: "July",
         y: 189,
       },
       {
-        x: "moto",
+        x: "August",
         y: 152,
       },
       {
-        x: "bicycle",
+        x: "September",
         y: 8,
       },
       {
-        x: "horse",
+        x: "October",
         y: 197,
       },
       {
-        x: "skateboard",
+        x: "November",
         y: 107,
       },
       {
-        x: "others",
+        x: "December",
         y: 170,
       },
     ],
