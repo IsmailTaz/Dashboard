@@ -23,20 +23,7 @@ const Clients = () => {
         <Box>
             <Header title = "Clients" subtitle="List of your current clients" />
         
-        <Box marginLeft="20px" marginRight="10px" marginTop="5px" height="75vh" sx={{
-            "& .MuiDataGrid-footerContainer": {
-            borderTop: "none",
-            backgroundColor: colors.blueAccent[700],
-        },
-        "& .MuiDataGrid-columnHeaders": {
-            borderBottom: "none",
-            backgroundColor: colors.blueAccent[700],
-        },
-        "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
-            borderBottom: "none",
-            colr: `${colors.grey[100]} !important`,
-        },
-        }}>
+        <Box marginLeft="20px" marginRight="10px" marginTop="5px" height="75vh">
             <DataGrid
             rows={mockDataContacts}
             columns={columns}
